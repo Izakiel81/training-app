@@ -1,3 +1,8 @@
 <header>
-    <nav>{{title()}}</nav>
+  <nav>
+    <span class="logo" routerLink="/">{{ title() }}</span>
+    <ul class="nav-links">
+      <li routerLink="/todos">todos</li>
+    </ul>
+  </nav>
 </header>
